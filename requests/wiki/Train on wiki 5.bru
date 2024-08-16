@@ -1,0 +1,17 @@
+meta {
+  name: Train on wiki 5
+  type: http
+  seq: 5
+}
+
+post {
+  url: localhost:3030/train
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "topic": "American current military prowess"
+  }
+}

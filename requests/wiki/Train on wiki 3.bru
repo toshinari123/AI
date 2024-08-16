@@ -1,0 +1,17 @@
+meta {
+  name: Train on wiki 3
+  type: http
+  seq: 3
+}
+
+post {
+  url: localhost:3030/train
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "topic": "tactical battles records of Russia and all other enemies"
+  }
+}

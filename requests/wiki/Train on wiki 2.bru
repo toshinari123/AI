@@ -1,0 +1,17 @@
+meta {
+  name: Train on wiki 2
+  type: http
+  seq: 2
+}
+
+post {
+  url: localhost:3030/train
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "topic": "Russian geopolitics from 20th Century"
+  }
+}

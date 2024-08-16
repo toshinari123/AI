@@ -1,0 +1,17 @@
+meta {
+  name: Train on wiki
+  type: http
+  seq: 1
+}
+
+post {
+  url: localhost:3030/train
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "topic": "Russian geography"
+  }
+}
