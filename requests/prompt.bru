@@ -1,0 +1,17 @@
+meta {
+  name: prompt
+  type: http
+  seq: 1
+}
+
+get {
+  url: localhost:3030/generate
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "prompt": "Enter your prompt..."
+  }
+}
